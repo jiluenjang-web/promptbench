@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PromptBench 是以繁體中文整理生成式 AI 工具、使用情境與 Prompt 配方的個人知識庫。">
+  <title>PromptBench｜生成式 AI 工具與提示詞實驗室</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main-content">跳到主要內容</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="PromptBench 首頁"><span class="brand__mark">PB</span><span>PromptBench</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">選單</button>
+      <nav class="site-nav" id="site-nav" aria-label="主要導覽">
+        <ul class="site-nav__list">
+          <li><a href="index.html" aria-current="page">首頁</a></li><li><a href="tools.html">AI 工具</a></li><li><a href="prompts.html">Prompt 配方</a></li><li><a href="compare.html">工具比較</a></li><li><a href="guide.html">選擇指南</a></li><li><a href="about.html">關於本站</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero__layout">
+        <div class="hero__content">
+          <p class="eyebrow">生成式 AI 學習工作台</p>
+          <h1>用情境選工具，<br>用結構寫 Prompt。</h1>
+          <p class="hero__lead">不是再做一份工具排行榜，而是把任務、工具限制與可重複使用的 Prompt 放進同一套工作流程。</p>
+          <div class="button-row"><a class="button button--primary" href="tools.html">探索 AI 工具</a><a class="button button--secondary" href="prompts.html">尋找 Prompt 配方</a></div>
+          <ul class="hero__facts" aria-label="本站內容摘要"><li><strong id="home-tool-total">7</strong><span>項正式工具資料</span></li><li><strong id="home-prompt-total">6</strong><span>份任務型 Prompt</span></li><li><strong>官方</strong><span>來源與確認日期</span></li></ul>
+        </div>
+        <aside class="lab-note" aria-labelledby="lab-note-title">
+          <p class="lab-note__code">PB / WORKFLOW 01</p>
+          <h2 id="lab-note-title">一次可靠的 AI 任務</h2>
+          <ol><li><span>01</span><div><strong>定義任務</strong><p>說清楚目標、輸入與限制。</p></div></li><li><span>02</span><div><strong>選擇工具</strong><p>比較情境，不只比較功能。</p></div></li><li><span>03</span><div><strong>套用配方</strong><p>替換變數並指定輸出格式。</p></div></li><li><span>04</span><div><strong>人工驗證</strong><p>回查來源、數字與引用。</p></div></li></ol>
+        </aside>
+      </div>
+    </section>
+    <section class="value-strip" aria-labelledby="value-title">
+      <div class="container"><div class="section-heading"><p class="eyebrow">專案價值</p><h2 id="value-title">把「會用 AI」變成可檢查的方法</h2></div><div class="value-grid"><article><p class="value-grid__index">01 / 統一欄位</p><h3>工具可以公平比較</h3><p>每項工具都用相同欄位整理定位、對象、用途、優勢、限制與來源。</p></article><article><p class="value-grid__index">02 / 結構化配方</p><h3>Prompt 不只是句子</h3><p>每份配方包含變數、步驟、預期輸出與人工驗證清單。</p></article><article><p class="value-grid__index">03 / 可追溯資料</p><h3>知道內容從哪裡來</h3><p>功能資訊以官方來源為主，並標示最後確認日期與內容限制。</p></article></div></div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">從任務開始</p><h2>今天想完成什麼？</h2><p>不需要先背下所有工具名稱，先從實際需求找到適合的方向。</p></div>
+        <div class="grid grid--cards">
+          <a class="card task-card" href="tools.html"><h3>研究與資料整理</h3><p>比較來源、整理證據，並保留需要人工查證的問題。</p></a>
+          <a class="card task-card" href="prompts.html"><h3>摘要與學習</h3><p>把長內容整理成分層重點，而不是只得到一段模糊摘要。</p></a>
+          <a class="card task-card" href="guide.html"><h3>簡報與內容規劃</h3><p>從聽眾、時間與目的出發，安排清楚的敘事順序。</p></a>
+        </div>
+      </div>
+    </section>
+    <section class="section section--surface">
+      <div class="container"><div class="section-heading"><p class="eyebrow">工具圖鑑</p><h2>精選工具</h2><p>以統一欄位整理特色、限制、使用流程與官方來源。</p></div><div class="grid grid--cards" id="featured-tools"><noscript><p>請啟用 JavaScript 瀏覽工具卡片；網站目的與資料方法仍可在本頁及關於本站閱讀。</p></noscript></div></div>
+    </section>
+    <section class="section">
+      <div class="container"><div class="section-heading"><p class="eyebrow">Prompt 配方</p><h2>可重複使用的工作方法</h2><p>每份配方都包含替換變數、操作步驟與人工驗證清單。</p></div><div class="grid grid--cards" id="featured-prompts"><noscript><p>請啟用 JavaScript 瀏覽 Prompt 卡片；你仍可閱讀本頁的核心介紹。</p></noscript></div></div>
+    </section>
+    <section class="section section--surface">
+      <div class="container"><div class="section-heading"><p class="eyebrow">使用方法</p><h2>三步驟建立可靠工作流程</h2></div><div class="grid grid--cards method-steps"><article class="card method-step"><h3>先定義任務</h3><p>說清楚目標、讀者、輸入資料與限制。</p></article><article class="card method-step"><h3>再選擇工具</h3><p>比較工具的適用情境、輸入類型與限制。</p></article><article class="card method-step"><h3>最後人工驗證</h3><p>回到原始資料確認重要事實、數字與引用。</p></article></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container site-footer__grid"><div><p class="site-footer__label">PROMPTBENCH / LAB NOTES</p><h2>用情境選工具，用結構寫 Prompt。</h2><p>以任務為中心的生成式 AI 工具與 Prompt 知識庫。</p></div><div><h2>探索</h2><ul class="footer-links"><li><a href="tools.html">AI 工具</a></li><li><a href="prompts.html">Prompt 配方</a></li><li><a href="guide.html">選擇指南</a></li></ul></div><div><h2>資料與規則</h2><ul class="footer-links"><li><a href="about.html">資料方法與來源</a></li><li><a href="AGENTS.md">AGENTS.md</a></li><li><a href="README.md">README.md</a></li></ul></div></div><div class="container site-footer__bottom"><p>工具功能以官方來源為主，重要資訊仍需回到原始頁面確認。</p><p>資料確認：2026-11-06</p></div></footer>
+</body>
+</html>
